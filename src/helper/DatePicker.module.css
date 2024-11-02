@@ -1,0 +1,119 @@
+.datePickerContainer {
+  font-family: Arial, sans-serif;
+}
+
+.customHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+.monthYear {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.yearDropdown {
+  
+  padding: 4px; 
+  border: none;
+  font-size: 14px; 
+  cursor: pointer; 
+  font-weight: bold;
+}
+
+.customCalendarContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.react-datepicker__month-container {
+  background-color: #ffffff; 
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #ffffff; 
+}
+
+.todayButton, .clearButton {
+  background-color: transparent;
+  color: #1a73e8;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.react-datepicker {
+  border: 1px solid #ddd;
+  box-shadow: none;
+  border-radius: 8px;
+}
+.react-datepicker__day-names {
+  background-color: #ffffff !important;
+}
+
+.yearSelector {
+  position: relative;
+}
+
+.yearDropdownButton {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.yearDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  scroll-behavior: auto;
+}
+
+.yearItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.yearItem:hover, .selectedYear {
+  background-color: #f0f0f0;
+}

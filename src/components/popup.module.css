@@ -1,0 +1,88 @@
+.overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.874); 
+    z-index: 999; 
+  }
+  
+  .popup {
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    z-index: 1000; 
+    width: 646px; 
+    height: 284PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+.addpeople {
+    font-family: Noto Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: left;
+padding: 20px;
+}
+.addpeople .form{
+    width: 100%;
+}
+  .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  .form button{
+    box-shadow: 0px 2px 12px 0px #82698C33;
+    border-radius: 12px;
+    width: 280px;
+    margin: 0;
+  }
+  .cancel{
+    background-color: #fff;
+    border: 1px solid #CF3636;
+    color: #CF3636;
+  }
+  .confirm{
+    font-family: Noto Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: left;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  }
+.popuplogout{
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+    z-index: 1000; 
+    width: 355px; 
+    display: flex;
+    flex-direction: column;
+}
+.logout{
+    font-family: Noto Sans;
+font-size: 17px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: center;
+margin: 0;
+width: 100%;
+}
